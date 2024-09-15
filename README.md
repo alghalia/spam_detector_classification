@@ -27,11 +27,19 @@ The dataset consists of word and character frequency features extracted from ema
 3. **Model Comparison**:
     - Both models were evaluated on the test data, and their performances were compared based on accuracy scores.
 
+
 ## Results
 - **Logistic Regression Model Accuracy**: (.9197)
 - **Random Forest Classifier Model Accuracy**: (.9555)
 
 The Random Forest Classifier outperformed the Logistic Regression model, confirming the hypothesis that an ensemble model like Random Forest handles complex, non-linear data better.
+Conclusion
+This project highlights the power of ensemble models like Random Forest in classifying spam emails. While Logistic Regression provides a simple and interpretable model, Random Forest's ability to capture complex patterns made it the better performer in this task.
+
+License
+This project is licensed under the CU
+
+
 
 ## Dependencies
 To run this project, ensure you have the following Python libraries installed:
